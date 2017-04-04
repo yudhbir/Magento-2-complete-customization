@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="my_new_custom_widget" class="Magento\Framework\View\Element\Template">
+        <label translate="true">My new custom widget</label>
+        <description translate="true">My new custom widget description</description>
+        <parameters>
+            <parameter name="image" xsi:type="block" required="true" visible="true" sort_order="10">
+                <label translate="true">Background image</label>
+                <block class="Dckap\customwidget\Block\Adminhtml\Widget\ImageChooser">
+                    <data>
+                        <item name="button" xsi:type="array">
+                            <item name="open" xsi:type="string">Choose Image...</item>
+                        </item>
+                    </data>
+                </block>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>

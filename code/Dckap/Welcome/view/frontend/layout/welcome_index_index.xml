@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd" layout="2columns-left">
+    <head>
+        <title>Welcome to Magento World1</title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block name="welcome" template="welcome.phtml" class="Dckap\Welcome\Block\Welcome">
+			<block name="hello_fine" template="hello.phtml" class="Dckap\Welcome\Block\Hello"/>
+            </block>
+        </referenceContainer>
+		<referenceContainer name="sidebar.main">
+            <block name="hello" template="hello.phtml" class="Dckap\Welcome\Block\Hello">
+            </block>
+		</referenceContainer>
+		<!-- set layout="3columns if you want to add 2nd sidebar add below
+		<referenceContainer name="sidebar.additional">
+		    <block name="hello_additional" template="hello.phtml" class="Dckap\Welcome\Block\Hello">
+            </block>tbl_models
+		</referenceContainer-->
+    </body>
+</page>

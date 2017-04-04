@@ -1,0 +1,7 @@
+.logo {
+  float: left;
+  margin: 0;
+  max-width: 50%;
+  position: relative;
+  z-index: 5;
+}

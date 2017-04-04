@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="css/styles-m.css"/>
+        <css src="css/styles-l.css" media="screen and (min-width: 768px)"/>
+        <css src="css/print.css" media="print"/>
+        <css src="css/font-awesome.css" media="screen and (min-width: 768px)"/>
+        <css src="css/bootstrap.min.css" media="screen and (min-width: 768px)"/>
+        <css src="css/animate.min.css" />
+        <css src="css/owl.carousel.css"/>
+        <css src="css/owl.theme.css" />
+        <css src="css/style.default.css" media="screen and (min-width: 768px)"/>
+        <css src="css/custom.css"/>
+        <script src="js/respond.min.js"></script>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!--script src="js/jquery.cookie.js"></script-->
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/modernizr.js"></script>
+		<script src="js/bootstrap-hover-dropdown.js"></script>
+		<!--script src="js/owl.carousel.min.js"></script-->
+		
+       
+    </head>
+</page>
