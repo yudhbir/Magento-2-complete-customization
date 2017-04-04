@@ -1,0 +1,7 @@
+php bin/magento cache:disable
+php bin/magento cache:flush
+php bin/magento indexer:reindex
+
+/var/generation //to delete the module to view the refelction of current changes
+
+http://magehit.com/blog/way-to-use-model-and-collection-in-magento-2/
